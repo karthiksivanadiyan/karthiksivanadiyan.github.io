@@ -4,6 +4,7 @@ import preact from "@astrojs/preact";
 import tailwind from "@astrojs/tailwind";
 import sitemap from "@astrojs/sitemap";
 export default defineConfig({
+  site: 'https://karthiksivanadiyan.github.io',
   markdown: {
     drafts: true,
     shikiConfig: {
