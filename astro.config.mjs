@@ -1,8 +1,8 @@
 import { defineConfig } from "astro/config";
 
 import preact from "@astrojs/preact";
-import tailwind from "@astrojs/tailwind";
 import sitemap from "@astrojs/sitemap";
+import tailwind from "@astrojs/tailwind";
 export default defineConfig({
   site: 'https://karthiksivanadiyan.github.io',
   markdown: {
@@ -12,5 +12,5 @@ export default defineConfig({
     }
   },
   site: 'https://lexingtonthemes.com',
-  integrations: [preact(), tailwind(),  sitemap()]
+  integrations: [preact(), tailwind(), sitemap()]
 });
